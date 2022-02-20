@@ -1,0 +1,83 @@
+td{
+    text-align: right;
+}
+
+.table-width{
+    width: 100%;
+    border-bottom: 0.050em solid #ccc;
+    border-left: 0.050em solid #ccc;
+    border-top: 0.050em solid rgb(228, 228, 228);
+    border-right: 0.050em solid rgb(228, 228, 228);
+    
+    border-radius: 4px;
+    overflow-y: auto;
+}
+
+
+.min-width{
+    text-align: right;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.min-width1{
+     min-width: 10px;
+     text-align: right;
+     font-size: 16px;
+     font-style: italic;
+ }
+
+.paginator{
+    width:auto;
+    float:right;
+    margin: 10px 0px;
+    height: 42px;
+    border-bottom: 0.050em solid #ccc;
+    border-left: 0.050em solid #ccc;
+    border-top: 0.050em solid rgb(228, 228, 228);
+    border-right: 0.050em solid rgb(228, 228, 228);
+    
+    border-radius: 4px;
+}
+
+.make-grey {
+    background-color: #a9a9a9
+}
+
+.make-gold {
+    background-color: gold
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot2 {
+    height: 10px;
+    width: 10px;
+    background-color: blue;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot3 {
+    height: 10px;
+    width: 10px;
+    background-color: darkorange;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+th.mat-sort-header-sorted {
+    color: blue;
+}
+
+.mat-form-field {
+    margin-left: 200px;
+    font-size: 16px;
+    width: 85%;
+}

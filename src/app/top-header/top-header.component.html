@@ -1,0 +1,27 @@
+<mat-card class="stats-card">
+    <div fxLayout="column">
+      <div fxLayout="row"><h1 style="font-size: 27px !important; color: blue;">Fuel</h1></div>
+      <div fxLayout="row">
+          <ul class="breadcrumb">
+          <li><a routerLink="/fuel">Fuel</a></li>
+          <li>Fuel Log</li>
+          </ul>
+     </div>
+
+     <button class="btn default" matTooltip = "Add new user" matTooltipPosition = "above" (click)="openSnackBar('Hi, New user, Please register!')">+</button>
+   
+     <div class="dropdown">
+        <div class="changecolor" matTooltip = "User list" matTooltipPosition = "above"><mat-icon>account_box</mat-icon>
+          <mat-select>
+              <mat-option (click)="openSnackBar('Welcome Kia Potato!')"> Potato</mat-option>
+              <mat-option (click)="openSnackBar('Welcome David Lwice!')">David Lwice</mat-option>
+              <mat-option (click)="openSnackBar('Welcome Harry Potter!')">Harry Potter</mat-option>
+              <mat-option (click)="openSnackBar('Welcome Robert Langdon!')">Robert Langdon</mat-option>
+              <mat-option (click)="openSnackBar('Welcome Ron Perry!')">Ron Perry</mat-option>
+              <mat-option (click)="openSnackBar('Welcome John Lewis!')">John Lewis</mat-option>
+          </mat-select>
+        </div>
+     </div> 
+</div>
+  </mat-card>
+  <router-outlet></router-outlet>

@@ -1,0 +1,30 @@
+<app-top-header></app-top-header> 
+<app-sidebar></app-sidebar>
+
+
+<mat-card class="stats-card2">
+    <div fxLayout="column">
+      <div fxLayout="row"><h1 style="font-size: 27px !important; color: black;">FUEL</h1></div>
+      <div fxLayout="row"><h1 style= "font-size: 50px; color: silver; font-family: Arial, Helvetica, sans-serif;">Fuel Log</h1></div>
+      <button class="buttonfor" matTooltip = "Add New Fuel" matTooltipPosition = "above" (click)="openDialog()">+ New Fuel</button>
+
+      <div fxLayout="row">
+        <button class="button" matTooltip = "Total Fuel Cost" matTooltipPosition = "above" style="background-color: #1a75ff">
+          <h3>$38.85</h3> <h6 ali>TOTAL FUEL COST</h6> </button>
+
+        <button class="button" matTooltip = "Total Tallons" matTooltipPosition = "above" style="background-color: #cc6699;">
+          <h3>521.85</h3> <h6>TOTAL TALLONS</h6> </button>
+
+        <button class="button" matTooltip = "Avg. Fuel Economy" matTooltipPosition = "above" style="background-color: #ff6666;">
+          <h3>MPa(US)</h3> <h6>AVG. FUEL ECONOMY</h6> </button>
+
+        <button class="button" matTooltip = "Cost/Gallon" matTooltipPosition = "above" style="background-color: #ff944d">
+          <h3>$52.50</h3> <h6>COST/GALLON</h6> </button>
+     </div>
+    </div>
+</mat-card>
+
+
+
+
+<app-table></app-table>

@@ -1,0 +1,22 @@
+.sidenav {
+    height: 105%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+ 
+.changecolor {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 24px;
+}
+
+.changecolor:hover {
+    background-color: lightblue;
+    cursor: pointer;
+}
